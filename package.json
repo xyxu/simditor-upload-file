@@ -1,8 +1,8 @@
 {
   "name": "simditor-upload-file",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "simditor upload",
-  "main": "dist",
+  "main": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,15 +14,13 @@
     "simditor",
     "upload"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "wy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dzy321/simditor-upload-file/issues"
   },
-  "homepage": "https://github.com/dzy321/simditor-upload-file#readme",
-  "devDependencies": {
-    "eslint": "^3.16.1",
-    "eslint-config-airbnb-base": "^11.1.0",
-    "eslint-plugin-import": "^2.2.0"
-  }
+  "homepage": "https://github.com/dzy321/simditor-upload-file#readme"
 }
